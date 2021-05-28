@@ -1,1 +1,202 @@
-hi 👋
+/* remove stages*/
+#private-channels [href="/discovery"] {display: none}
+
+/* animation on setting menu*/
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important; 
+}
+
+/* mobile style roles*/
+.role-2irmRk {
+    border: none;
+    background-color: var(--background-tertiary);
+    border-radius: 3px;
+    padding: 6px;
+    height: 24px;
+}
+
+#app-mount .actionButton-VzECiy {
+    color: var(--interactive-normal);
+    border: 1px solid var(--background-modifier-accent);
+}
+
+#app-mount .actionButton-VzECiy:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+#app-mount .actionButton-VzECiy:active {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-active);
+} 
+
+/* hide gift button*/
+.buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
+{display: none;}
+
+/* Show discord when you lost internet connection*/
+.container-16j22k {background: transparent; pointer-events: none}
+.container-16j22k>div {display: none}
+.container-16j22k::before {
+    content: "You've gone offline";
+    display: block;
+    bottom: 24px; right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500
+}
+
+/* hide explore public servers button*/
+.tutorialContainer-30WoTp+div {display:none}
+
+/* Horizontal Status Picker */
+#status-picker {
+    margin-bottom: 5px;
+}
+
+#status-picker > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.statusItem-33LqPf {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.statusItem-33LqPf > svg {
+    width: 16px;
+    height: auto;
+}
+
+#status-picker .item-1tOPte {
+    margin: 0;
+    width: 25%;
+}
+
+#status-picker .status-1fhblQ,
+#status-picker .description-2L932D,
+#status-picker .separator-2I32lJ:nth-child(2) {
+    display: none;
+}
+
+#status-picker .separator-2I32lJ,
+#status-picker #status-picker-custom-status {
+    display: block;
+    width: 100%;
+}
+
+#status-picker-custom-status .status-1fhblQ {
+    display: block;
+    margin-left: 6px;
+}
+
+/*Mac like topbar buttons*/
+.winButton-iRh8-Z > svg {
+    display: none;
+  }
+
+  .winButton-iRh8-Z {
+    pointer-events: none;
+    margin-left: -3px;
+  }
+  
+  .winButton-iRh8-Z::after {
+    content: "";
+    padding: 7px;
+    border-radius: 50px;
+    pointer-events: fill;
+  }
+  .winButtonClose-1HsbF- {
+    margin-right: 3px;
+  }
+  .winButtonClose-1HsbF-::after {
+    background-color: #ff605c;
+  }
+  .winButtonClose-1HsbF-:hover::after {
+    background-color: rgba(255, 96, 92, 0.5);
+  }
+  .winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
+    background-color: #ffbd44;
+  }
+  .winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
+    background-color: rgba(255, 189, 68, 0.5);
+  }
+  .winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
+    background-color: #00ca4e;
+  }
+  .winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
+    background-color: rgba(0, 202, 78, 0.5);
+  }
+
+/* better embeds */
+  .embedWrapper-lXpS3L.embedFull-2tM8-- {
+    border-radius: 10px;
+    border-left: 3px solid var(--background-tertiary);
+  }
+
+ /* hide help button */
+  .toolbar-1t6TWx a {
+    display: none;
+  }
+  
+/* emojis gray fix */
+  .emojiItemDisabled-1FvFuF {
+    filter: grayscale(0%);
+}
+
+/* nitro icon on home */
+#private-channels a[href="/store"] {
+    display: none;
+}
+
+/* friends list */
+.peopleColumn-29fq28  {
+    background-color: #202225;
+}
+
+/* discord icon hover */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: #202225;
+}
+
+/* pin/delete msg modal */
+.content-1LAB8Z, .header-1TKi98, .theme-dark .footer-2gL1pp {
+    background-color: #0B0C0D;
+}
+
+/* upload modal */
+.theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    background-color: #0B0C0D;
+}
+
+/*server creator */
+   .container-1CE3eW, .container-UC8Ug1 {
+    background-color: #0B0C0D;
+}
+.base-1x0h_U {
+    color: white;
+}
+
+/* playing status fix */
+.activityUserPopout-2yItg2.activity-fViXj7.newPopoutActivityStyles {
+  padding-bottom: 16px;
+  background: var(--BackgroundCode);
+}
