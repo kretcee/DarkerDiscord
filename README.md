@@ -19,5 +19,4 @@
 - ꧁༒☬Sôma☬༒꧂#0570
 - [puckzxz](https://github.com/puckzxz/NotAnotherAnimeTheme)
 - [Gibbu](https://github.com/Gibbu)
-- https://i.imgur.com/NTfSaz1.png
 - hellbound1337
