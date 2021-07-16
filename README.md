@@ -11,7 +11,7 @@
 
 1. Download [BetterDiscord](https://betterdiscord.net/)
 2. Download the [DDiscord.theme](https://github.com/kretcee/DarkerDiscord/releases) file
-3. Move the [DDiscord.theme](/BDDiscord.theme.css) to the BetterDiscord Theme folder
+3. Move the [DDiscord.theme](/DDiscord.theme.css) to the BetterDiscord Theme folder
 
 ## Credits
 
