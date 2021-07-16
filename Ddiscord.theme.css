@@ -1,9 +1,9 @@
 /**
  * @name Darkerdiscord
- * @version 1.0
+ * @version 2.0
  * @author Kret#3867
  * @authorId 438053266585026560
- * @description Darker discord theme
+ * @description More darker discord
  * @source https://github.com/kretcee/DarkerDiscord
 **//**
 ██╗  ██╗██████╗ ███████╗████████╗
@@ -13,24 +13,18 @@
 ██║  ██╗██║  ██║███████╗   ██║   
 ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
                                  **/
-
-@import url("https://raw.githack.com/kretcee/DarkerDiscord/main/DDiscordmain.css");
-@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css); /* icons in settings*/
+@import url("https://raw.githack.com/kretcee/DarkerDiscord/main/DDiscordmain.css"); 
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css); /* icons in settings */
 
 :root {
     --settingsiconssize: 18px; /*settingicons*/
     --settingsiconsgap: 14px;  /*settingicons*/
-    --header-primary: #ffffff;
-    --header-secondary: #ffffffa2;
     --background-primary: #141414;
     --background-secondary: #111111;
     --background-secondary-alt: #0C0C0C;
     --background-tertiary: #0D0D0D; 
     --background-accent: #2B2E33; 
     --background-floating: #18191c; 
-    --background-mobile-primary: #36393f; 
-    --background-mobile-secondary: #2f3136;
     --background-modifier-hover: #292C31; 
     --background-modifier-active: #292C31;
     --background-modifier-selected: #292C31;
@@ -42,15 +36,6 @@
     --scrollbar-auto-scrollbar-color-track: #2f3136;
     --channeltextarea-background: #202225;
     --activity-card-background: #202225;
-    /*You can edit/delete this 'RadialStatus'*/
-    --rs-small-spacing: 0px;  /* spacing between avatar and status */
-    --rs-large-spacing: 0px;  /* spacing between avatar and status for user popouts & modals/profiles */
-    --rs-width: 2px;  /* Width/thickness of status border */
-    --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
-    --rs-online-color: #43b581;  /* color for online status */
-    --rs-idle-color: #faa61a;  /* color for idle status */
-    --rs-dnd-color: #f04747;  /* color for dnd status */
-    --rs-offline-color: #636b75;  /* color for offline status */
-    --rs-streaming-color: #643da7;  /* color for streaming status */
-    --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility*/
-  } 
+    --background-mobile-primary: #36393f; 
+    --background-mobile-secondary: #2f3136;
+  }
