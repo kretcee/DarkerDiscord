@@ -21,12 +21,6 @@
 /* hide explore public servers button */
 .tutorialContainer-30WoTp+div {display:none}
 
-
-/* hide explore set a server nickname */
-.size14-e6ZScH {
-    display: none;
-    }
-
 /* Horizontal Status Picker */
 #status-picker {
     margin-bottom: 5px;
