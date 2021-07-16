@@ -18,8 +18,14 @@
 .buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
 {display: none;}
 
-/* hide explore public servers button*/
+/* hide explore public servers button */
 .tutorialContainer-30WoTp+div {display:none}
+
+
+/* hide explore set a server nickname */
+.size14-e6ZScH {
+    display: none;
+    }
 
 /* Horizontal Status Picker */
 #status-picker {
