@@ -84,6 +84,105 @@
 }
 
 
+/* Role Color Background in Role Management */
+.item-PXvHYJ > .roleDot-ZwSovK::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+/* role colors in member list */
+ span.roleColor-rz2vM0::after:disabled {
+    content: "";
+    background: currentColor;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.11;
+    left: 0;
+    top: 0;
+}
+
+
+/* mobile looking roles */
+.role-2irmRk {
+    border: none;
+    background-color: var(--background-tertiary);
+    border-radius: 3px;
+    padding: 6px;
+    height: 24px;
+}
+
+#app-mount .actionButton-VzECiy {
+    color: var(--interactive-normal);
+    border: 1px solid var(--background-modifier-accent);
+}
+
+#app-mount .actionButton-VzECiy:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+#app-mount .actionButton-VzECiy:active {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-active);
+}
+
+
+/* less annoying stage channel popup in servers*/
+.channelNotice-2bJINM {
+    height: 20px;
+    margin: 0;
+    padding: 16px;
+    transition: 0.2s ease-in-out;
+}
+.channelNotice-2bJINM .textBlock-2FWDjE {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    transition: 0.3s ease-in-out;
+}
+.channelNotice-2bJINM button {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+.channelNotice-2bJINM:hover {
+    height: 152px;
+}
+.channelNotice-2bJINM:hover .textBlock-2FWDjE {
+    height: 16px;
+    margin: 4px auto;
+    opacity: 1;
+}
+.channelNotice-2bJINM:hover button {
+    height: 32px;
+    margin: unset;
+    padding: unset;
+    opacity: 1;
+}
+
+
+/* get rid of discord's hideous new display font */
+html:root {
+    --font-display: var(--font-primary);
+}
+
+
+/* make stickers smaller */
+.assetWrapper-3GNt0z { 
+    max-height: 10vh;
+    max-width: 10vh;
+}
+
+
 /* hide set server nickname */
 .setIdentityLink-1t8Ahd {display: none} 
 
@@ -148,4 +247,26 @@ height: 39px;
 
 .container-1giJp5  {
 height: 70px;
+}
+
+
+/* remove discovery and others */
+#private-channels [href="/library"] {display: none}
+#private-channels [href="/store"] {display: none}
+
+
+/* disable extremely laggy settings animations */
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important;
 }
