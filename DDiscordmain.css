@@ -70,6 +70,14 @@
     color: white;
 }
 
+**//**
+██╗  ██╗██████╗ ███████╗████████╗
+██║ ██╔╝██╔══██╗██╔════╝╚══██╔══╝
+█████╔╝ ██████╔╝█████╗     ██║   
+██╔═██╗ ██╔══██╗██╔══╝     ██║   
+██║  ██╗██║  ██║███████╗   ██║   
+╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
+                                 **/
 
 /* hide set server nickname */
 .setIdentityLink-1t8Ahd {display: none} 
@@ -98,3 +106,34 @@
 
 /* hide explore public servers button */
 .tutorialContainer-30WoTp+div {display:none}
+
+/* text bar */
+#textarea-context-sticker-suggestions {display: none}
+.separator-2I32lJ {display: none}
+#textarea-context-spellcheck {display: none}
+
+
+/* right click user menu things */
+#user-context-note {display: none}
+
+
+/* frens list */
+.inviteToolbar-3F-l2g {display: none}
+
+#user-context-close-dm {display: none}
+
+
+/* server finder */ 
+.circleIconButton-1QV--U.selected-1JjBPm {
+ background-color: gray;
+} 
+
+.circleIconButton-1QV--U {
+ color: gray;
+}
+
+
+/* Server popout */
+#guild-header-popout-create-channel {display: none}
+#guild-header-popout-create-category {display: none}
+#guild-header-popout-insights {display: none}
