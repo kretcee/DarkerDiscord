@@ -44,6 +44,7 @@
     margin-left: 6px;
 }
 
+
 /* Minified search bar */
 .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
 .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; background-color: var(--background-tertiary);}
@@ -57,10 +58,12 @@
     background-color: #202225;
 }
 
+
 /* upload modal */
 .theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC , .content-1LAB8Z, .header-1TKi98, .theme-dark .footer-2gL1pp  {
     background-color: #0B0C0D;
 }
+
 
 /*server creator */
 .theme-dark .footer-2gL1pp , .container-1CE3eW, .container-UC8Ug1 {
@@ -70,42 +73,51 @@
     color: white;
 }
 
-**//**
-██╗  ██╗██████╗ ███████╗████████╗
-██║ ██╔╝██╔══██╗██╔════╝╚══██╔══╝
-█████╔╝ ██████╔╝█████╗     ██║   
-██╔═██╗ ██╔══██╗██╔══╝     ██║   
-██║  ██╗██║  ██║███████╗   ██║   
-╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
-                                 **/
+
+/* server creator button */ 
+.circleIconButton-1QV--U.selected-1JjBPm {
+ background-color: gray;
+} 
+
+.circleIconButton-1QV--U {
+ color: gray;
+}
+
 
 /* hide set server nickname */
 .setIdentityLink-1t8Ahd {display: none} 
 
+
 /* hide stickers */
 .stickerButton-3OEgwj {display: none}
+
 
 /* hide help button */
   .toolbar-1t6TWx a {
     display: none;
 }
 
+
 /* hide nitro on home */
 #private-channels a[href="/store"] {
     display: none;
 }
+
 
 /* hide invite to server*/
 #user-context-invite-to-server {
   display: none;
 }
 
+
 /* hide gift button*/
 .buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
 {display: none;}
 
+
 /* hide explore public servers button */
 .tutorialContainer-30WoTp+div {display:none}
+
 
 /* text bar */
 #textarea-context-sticker-suggestions {display: none}
@@ -121,16 +133,6 @@
 .inviteToolbar-3F-l2g {display: none}
 
 #user-context-close-dm {display: none}
-
-
-/* server finder */ 
-.circleIconButton-1QV--U.selected-1JjBPm {
- background-color: gray;
-} 
-
-.circleIconButton-1QV--U {
- color: gray;
-}
 
 
 /* Server popout */
