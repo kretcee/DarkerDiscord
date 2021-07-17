@@ -1,9 +1,10 @@
 /**
  * @name Darkerdiscord
- * @version 2.0
+ * @version 2.0.1
  * @author Kret#3867
  * @authorId 438053266585026560
- * @description More darker discord
+ * @description 🎨 An actual Darker Discord theme 
+ * @updateUrl https://raw.githack.com/kretcee/DarkerDiscord/main/Ddiscord.theme.css
  * @source https://github.com/kretcee/DarkerDiscord
 **//**
 ██╗  ██╗██████╗ ███████╗████████╗
@@ -12,30 +13,33 @@
 ██╔═██╗ ██╔══██╗██╔══╝     ██║   
 ██║  ██╗██║  ██║███████╗   ██║   
 ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
-                                 **/
-@import url("https://raw.githack.com/kretcee/DarkerDiscord/main/DDiscordmain.css"); 
+**/
+@import url("https://raw.githack.com/kretcee/DarkerDiscord/main/DDiscordmain.css");
+@import url("https://raw.githack.com/kretcee/Discord-icons/main/discord-icons.css"); /* channel icons */
+
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css); /* icons in settings */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css'); /* old discord text */
 
 :root {
-    --settingsiconssize: 18px; /*settingicons*/
-    --settingsiconsgap: 14px;  /*settingicons*/
-    --background-primary: #141414;
-    --background-secondary: #111111;
-    --background-secondary-alt: #0C0C0C;
-    --background-tertiary: #0D0D0D; 
-    --background-accent: #2B2E33; 
-    --background-floating: #18191c; 
-    --background-modifier-hover: #292C31; 
-    --background-modifier-active: #292C31;
-    --background-modifier-selected: #292C31;
-    --background-modifier-accent: #292C31; 
-    --scrollbar-thin-thumb: #202225;
-    --scrollbar-auto-thumb: #0C0C0C;
-    --scrollbar-auto-track: #292C31;
-    --scrollbar-auto-scrollbar-color-thumb: #202225;
-    --scrollbar-auto-scrollbar-color-track: #2f3136;
-    --channeltextarea-background: #202225;
-    --activity-card-background: #202225;
-    --background-mobile-primary: #36393f; 
-    --background-mobile-secondary: #2f3136;
-  }
+--settingsiconssize: 18px; /*settingicons*/
+--settingsiconsgap: 14px;  /*settingicons*/
+--background-primary: #141414;
+--background-secondary: #111111;
+--background-secondary-alt: #0C0C0C;
+--background-tertiary: #0D0D0D; 
+--background-accent: #2B2E33; 
+--background-floating: #18191c; 
+--background-modifier-hover: #292C31; 
+--background-modifier-active: #292C31;
+--background-modifier-selected: #292C31;
+--background-modifier-accent: #292C31; 
+--scrollbar-thin-thumb: #202225;
+--scrollbar-auto-thumb: #0C0C0C;
+--scrollbar-auto-track: #292C31;
+--scrollbar-auto-scrollbar-color-thumb: #202225;
+--scrollbar-auto-scrollbar-color-track: #2f3136;
+--channeltextarea-background: #202225;
+--activity-card-background: #202225;
+--background-mobile-primary: #36393f; 
+--background-mobile-secondary: #2f3136;
+}
