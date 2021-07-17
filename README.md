@@ -17,6 +17,6 @@
 
 - _david_#1312
 - ꧁༒☬Sôma☬༒꧂#0570
-- [puckzxz](https://github.com/puckzxz/NotAnotherAnimeTheme)
+- [puckzxz](https://github.com/puckzxz)
 - [Gibbu](https://github.com/Gibbu)
 - hellbound1337
