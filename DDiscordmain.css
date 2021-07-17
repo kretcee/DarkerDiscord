@@ -1,26 +1,3 @@
-/* animation on setting menu*/
-.layer-3QrUeG {
-    transform: none !important;
-    opacity: 1 !important;
-}
-
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
-    pointer-events: auto !important;
-    will-change: unset;
-}
-
-.animating-rRxada.stop-animations {
-    z-index: 100 !important; 
-}
-
-/* hide gift button*/
-.buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
-{display: none;}
-
-/* hide explore public servers button */
-.tutorialContainer-30WoTp+div {display:none}
-
 /* Horizontal Status Picker */
 #status-picker {
     margin-bottom: 5px;
@@ -67,20 +44,13 @@
     margin-left: 6px;
 }
 
- /* hide help button */
-  .toolbar-1t6TWx a {
-    display: none;
-}
+/* Minified search bar */
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; background-color: var(--background-tertiary);}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.3); transition: 0.25s;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1);}
+.icon-3cZ1F_ { color: var(--text-normal)}
 
-/* hide nitro on home */
-#private-channels a[href="/store"] {
-    display: none;
-}
-
-/* hide invite to server*/
-#user-context-invite-to-server {
-  display: none;
-}
 
 /* discord icon hover */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .peopleColumn-29fq28 {
@@ -100,12 +70,31 @@
     color: white;
 }
 
-/* Minified search bar */
-.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
-.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; background-color: var(--background-tertiary);}
-.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.3); transition: 0.25s;}
-.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1);}
-.icon-3cZ1F_ { color: var(--text-normal)}
 
-/* set server nickname */
+/* hide set server nickname */
 .setIdentityLink-1t8Ahd {display: none} 
+
+/* hide stickers */
+.stickerButton-3OEgwj {display: none}
+
+/* hide help button */
+  .toolbar-1t6TWx a {
+    display: none;
+}
+
+/* hide nitro on home */
+#private-channels a[href="/store"] {
+    display: none;
+}
+
+/* hide invite to server*/
+#user-context-invite-to-server {
+  display: none;
+}
+
+/* hide gift button*/
+.buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
+{display: none;}
+
+/* hide explore public servers button */
+.tutorialContainer-30WoTp+div {display:none}
