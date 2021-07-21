@@ -298,3 +298,14 @@ height: 70px;
   border-radius: 50%;
   background: var(--brand-experiment);
 }
+
+/* change mention bg */
+.mentioned-xhSam7 .repliedMessage-VokQwo:before{
+    border-color:hsla(var(--mention-hue), 100%, 50%);
+}
+.mentioned-xhSam7,.mouse-mode.full-motion .mentioned-xhSam7:hover,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z{
+  background-color:hsla(var(--mention-hue), 100%, 50%,0.1);
+}
+.mentioned-xhSam7:before,.menu-3sdvDG:before{
+  background-color:hsla(var(--mention-hue), 100%, 50%);
+}
