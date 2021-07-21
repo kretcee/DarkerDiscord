@@ -270,3 +270,31 @@ height: 70px;
 .animating-rRxada.stop-animations {
     z-index: 100 !important;
 }
+
+
+/* Pin home button */
+.guilds-1SWlCJ .tree-2wKJdG:focus {
+  outline-color: transparent;
+}
+.guilds-1SWlCJ .scroller-1Bvpku {
+  contain: unset;
+  margin-top: 56px;
+}
+.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
+  position: fixed;
+  transform: translatey( -100% );
+}
+
+
+/* better looking bot tags */
+.botTag-2WPJ74 {
+  padding-right: 0;
+  background: transparent;
+}
+.botTag-2WPJ74 .botText-1526X_:not(:only-child) {
+  display: none;
+}
+.botTag-2WPJ74 .botTagVerified-1klIIt {
+  border-radius: 50%;
+  background: var(--brand-experiment);
+}
