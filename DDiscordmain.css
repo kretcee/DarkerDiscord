@@ -309,3 +309,8 @@ height: 70px;
 .mentioned-xhSam7:before,.menu-3sdvDG:before{
   background-color:hsla(var(--mention-hue), 100%, 50%);
 }
+
+/* Smaller embeds */
+.embedWrapper-lXpS3L.embedFull-2tM8-- {
+    zoom: 90%;
+  }
