@@ -1,6 +1,6 @@
 /**
  * @name Darkerdiscord
- * @version 2.1.1
+ * @version 2.3.2
  * @author Kret#3867
  * @authorId 438053266585026560
  * @description 🎨 An actual Darker Discord theme 
@@ -15,6 +15,8 @@
 **/
 @import url("https://raw.githack.com/kretcee/DarkerDiscord/main/DDiscordmain.css");
 @import url("https://raw.githack.com/kretcee/Discord-icons/main/discord-icons.css"); /* channel icons */
+@import url("hhttps://raw.githack.com/kretcee/Discord-icons/main/discord-icons-other.css"); /* channel icons for eng servers */
+
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css); /* icons in settings */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css'); /* old discord text */
