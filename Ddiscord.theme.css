@@ -25,6 +25,7 @@
 --settingsiconssize: 18px; /*settingicons*/
 --settingsiconsgap: 14px;  /*settingicons*/
 --mention-hue: 10000; /* change mention bg */
+--embed-border-radius: 8px; /* better embeds */
 --background-primary: #141414;
 --background-secondary: #111111;
 --background-secondary-alt: #0C0C0C;
