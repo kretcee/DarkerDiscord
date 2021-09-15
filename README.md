@@ -9,7 +9,7 @@
 
 ## Installation
 
-1. Download [BetterDiscord](https://betterdiscord.net/)
+1. Download [BetterDiscord](https://betterdiscord.app//)
 2. Download the [DDiscord.theme](https://github.com/kretcee/DarkerDiscord/releases) file
 3. Move the [DDiscord.theme](/DDiscord.theme.css) to the BetterDiscord Theme folder
 
