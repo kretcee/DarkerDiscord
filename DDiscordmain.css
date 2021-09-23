@@ -242,13 +242,25 @@ html:root {
 }
 
 
-/* hide invite to server*/
-#user-context-invite-to-server {
-  display: none;
-}
+/* Hide reactions in inbox */
+.layer-v9HyYc .container-1ov-mD {display: none}
 
 
-/* hide gift button*/
+/* Shut up discord */
+.container-3O_wAf {display: none}
+
+
+/* Hide some buttons in user context menu */
+#user-context-invite-to-server,
+#user-context-call,
+#user-context-add-friend {display: none}
+
+
+/*Hide mute channel icon*/
+.iconWrapper-2OrFZ1[aria-label*='Mute channel'] {display: none;}```
+
+
+/* hide gift button */
 .buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8)
 {display: none;}
 
