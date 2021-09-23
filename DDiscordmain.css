@@ -268,6 +268,8 @@ html:root {
 #guild-context-privacy,
 #message-tts,
 #channel-context-channel-notifications {display: none}
+[aria-label*='Send a gift'] {display: none;}
+.threadSuggestionBar-2ufK2Z {display: none;}
 
 
 /* Hide create thread in chat box */
