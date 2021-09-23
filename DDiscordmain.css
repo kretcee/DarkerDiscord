@@ -253,7 +253,27 @@ html:root {
 /* Hide some buttons in user context menu */
 #user-context-invite-to-server,
 #user-context-call,
-#user-context-add-friend {display: none}
+#user-context-add-friend,
+#user-context-voice-move,
+#user-context-invite-to-listen,
+#user-context-roles {display: none}
+
+
+/* Hide some buttons in server context menu */
+#channel-context-invite-to-listen,
+#channel-context-collapse-category,
+#channel-context-collapse-all-categories,
+#message-thread,
+#channel-context-create-text-channel,
+#guild-context-create-category,
+#guild-context-create-channel,
+#guild-context-privacy,
+#message-tts,
+#channel-context-channel-notifications {display: none}
+
+
+/* Hide create thread in chat box */
+#channel-attach-THREAD {display: none}
 
 
 /*Hide mute channel icon*/
