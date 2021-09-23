@@ -265,8 +265,6 @@ html:root {
 #channel-context-collapse-all-categories,
 #message-thread,
 #channel-context-create-text-channel,
-#guild-context-create-category,
-#guild-context-create-channel,
 #guild-context-privacy,
 #message-tts,
 #channel-context-channel-notifications {display: none}
