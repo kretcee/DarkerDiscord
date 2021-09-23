@@ -26,6 +26,7 @@
 --settingsiconsgap: 14px;  /*settingicons*/
 --mention-hue: 10000; /* change mention bg */
 --embed-border-radius: 8px; /* better embeds */ 
+--embed-line-width: 256px; /* better embeds */ 
 --color-brand-lighter: #4373c5; /* Discord Message box */ 
 --background-primary: #141414;
 --background-secondary: #111111;
