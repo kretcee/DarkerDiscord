@@ -388,3 +388,23 @@ height: 70px;
 .perksModalContentWrapper-2HU6uL {
 background-color: #141414;
 }
+
+
+/* Emote Fix */
+img.emote {
+    text-indent: 0;
+    white-space: nowrap;
+    width: auto;
+    position: relative;
+    top: 0.25ex;
+}
+
+/* Fix the channel icon being oversized in embeds and channel topics */
+.topic-TCb_qw > .wrapper-3WhCwL > .channelIcon-1MN1lz,
+.embedFooterText-28V_Wb > .wrapper-3WhCwL > .channelIcon-1MN1lz {
+    width: calc(1.05rem * 1.05 / 1.3);
+    height: 1.05rem;
+}
+
+/* Revert Discord Greeting System Messages */
+.welcomeCTAButtonOuter-2VwxSF {display : none}
