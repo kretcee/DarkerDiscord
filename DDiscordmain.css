@@ -148,16 +148,6 @@
     top: 0;
 }
 
-
-/* mobile looking roles */
-.role-2irmRk {
-    border: none;
-    background-color: var(--background-tertiary);
-    border-radius: 3px;
-    padding: 6px;
-    height: 24px;
-}
-
 #app-mount .actionButton-VzECiy {
     color: var(--interactive-normal);
     border: 1px solid var(--background-modifier-accent);
