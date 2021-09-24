@@ -232,6 +232,10 @@ html:root {
 #user-context-close-dm {display: none}
 
 
+/* Hide add friends to dm in dms */
+[aria-label*='Add friends to DM'] {display: none;}
+
+
 /* Server popout */
 #guild-header-popout-create-channel {display: none}
 #guild-header-popout-create-category {display: none}
