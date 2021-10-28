@@ -378,3 +378,11 @@ img.emote {
 
 /* Revert Discord Greeting System Messages */
 .welcomeCTAButtonOuter-2VwxSF {display : none}
+
+
+
+/* ill sort this later ######################## */
+#channel-attach-SLASH_COMMAND {display: none;}
+[aria-label*='Explore public servers'] {display: none;}
+
+
