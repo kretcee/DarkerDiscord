@@ -280,20 +280,6 @@ height: 70px;
 }
 
 
-/* Pin home button */
-.guilds-1SWlCJ .tree-2wKJdG:focus {
-  outline-color: transparent;
-}
-.guilds-1SWlCJ .scroller-1Bvpku {
-  contain: unset;
-  margin-top: 56px;
-}
-.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
-  position: fixed;
-  transform: translatey( -100% );
-}
-
-
 /* better looking bot tags */
 .botTag-2WPJ74 {
   padding-right: 0;
