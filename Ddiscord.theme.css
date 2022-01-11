@@ -1,6 +1,6 @@
 /**
  * @name Darkerdiscord
- * @version 2.3.4
+ * @version 2.3.5
  * @author Kret#3867
  * @authorId 438053266585026560
  * @description 🎨 An actual Darker Discord theme 
@@ -24,8 +24,6 @@
 --settingsiconssize: 18px; /*settingicons*/
 --settingsiconsgap: 14px;  /*settingicons*/
 --mention-hue: 10000; /* change mention bg */
---embed-border-radius: 8px; /* better embeds */
---embed-line-width: 256px; /* better embeds */
 --color-brand-lighter: #4373c5; /* Discord Message box */ 
 --background-primary: #141414;
 --background-secondary: #111111;
@@ -46,4 +44,5 @@
 --activity-card-background: #202225;
 --background-mobile-primary: #36393f; 
 --background-mobile-secondary: #2f3136;
+--font-display: var(--font-primary);
 }
