@@ -191,6 +191,9 @@ color: gray;
 #textarea-context-sticker-suggestions {display: none}
 .separator-1So4YB {display: none}
 #textarea-context-spellcheck {display: none}
+#textarea-context-submit-button {display: none;}
+#Suggestions {display: none;}
+
 
 
 /* bottom left size */
