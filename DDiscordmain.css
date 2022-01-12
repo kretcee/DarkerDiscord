@@ -216,12 +216,6 @@ background-color:hsla(var(--mention-hue), 100%, 50%);
 }
 
 
-/*  Smaller embeds */
-.embedWrapper-1MtIDg {
-  zoom: 90%;
-}
-
-
 .embed-hKpSrO {
   border-radius: var(--embed-border-radius);
 }
