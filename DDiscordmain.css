@@ -1,110 +1,14 @@
-
-/* channel creator */
-.header-1zd7se {
-  margin-top: 0px;
-  margin-bottom: 0px;
-} 
-
-
-/* Removes Follow banner on bottom of channels */
-.wrapper-2SplAX {display: none;}
-
-
-/* Horizontal Status Picker */
-#status-picker {
-  margin-bottom: 5px;
-}
-
-#status-picker > div {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 8px;
-}
-
-.statusItem-2hiCNB {
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-.statusItem-33LqPf > svg {
-  width: 16px;
-  height: auto;
-}
-
-#status-picker .item-1OdjEX {
-  margin: 0;
-  width: 25%;
-}
-
-#status-picker .status-3TYC5W,
-#status-picker .description-3Cwkxk,
-#status-picker .separator-1So4YB:nth-child(2) {
-  display: none;
-}
-
-#status-picker .separator-1So4YB,
-#status-picker #status-picker-custom-status {
-  display: block;
-  width: 100%;
-}
-
-#status-picker-custom-status .status-3TYC5W {
-  display: block;
-  margin-left: 6px;
-}
-
-
-/* Minified search bar */
-.search-1FM8Qc:not(.open-6_Y_aH) .searchBar-zdmu7v { width: 27px; transition: 0.25s; background-color: transparent;}
-.search-1FM8Qc:not(.open-6_Y_aH):hover .searchBar-zdmu7v { width: 240px; background-color: var(--background-tertiary);}
-.search-1FM8Qc:not(.open-6_Y_aH) .iconContainer-1RqWJj { transform: scale(1.3); transition: 0.25s;}
-.search-1FM8Qc:not(.open-6_Y_aH):hover .iconContainer-1RqWJj { transform: scale(1);}
-.icon-18rqoe { color: var(--text-normal)}
-
-
-/* disable extremely laggy settings animations */
-.layer-86YKbF {
-  transform: none !important;
-  opacity: 1 !important;
-}
-
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
-  pointer-events: auto !important;
-  will-change: unset;
-}
-
-.animating-1rIrGV.stop-animations {
-  z-index: 100 !important;
-}
-
-
-/* better looking bot tags */
-.botTag-7aX5WZ {
-  padding-right: 0;
-  background: transparent;
-}
-.botTag-7aX5WZ .botText-1fD6Qk:not(:only-child) {
-  display: none;
-}
-.botTag-7aX5WZ .botTagVerified-2KCPMa {
-  border-radius: 50%;
-  background: var(--brand-experiment);
-}
-
-
 /*  discord icon hover */
 .wrapper-3kah-n .selected-1Drb7Z .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub, .peopleColumn-1wMU14 {
   background-color: #202225;
 }
 
+
 /*  upload modal */
 .theme-dark .uploadModal-2ie9O_, .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ , .content-2hZxGK, .header-1zd7se, .theme-dark .footer-31IekZ  {
   background-color: #0B0C0D;
 }
+
 
 /* channel creator */
 .header-1zd7se {
@@ -124,140 +28,10 @@
 
 /* server creator button */ 
 .circleIconButton-1VxDrg.selected-2r1Hvo {
-background-color: gray;
+  background-color: gray;
 } 
-
-
 .circleIconButton-1VxDrg {
-color: gray;
-}
-
-
-/* Role Color Background in Role Management */
-.item-3XjbnG > .roleDot-2a4Pv7::before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background: inherit;
-  opacity: 0.15;
-  top: 0;
-  left: 0;
-  border-radius: 3px;
-}
-
-
-/* make stickers smaller */
-.assetWrapper-2hzITV { 
-  max-height: 10vh;
-  max-width: 10vh;
-}
-
-
-/* Hide reactions in inbox */
-.layer-2aCOJ3 .container-2sjPya {display: none}
-
-
-/* Hide some buttons in user context menu */
-#user-context-invite-to-server,
-#user-context-call,
-#user-context-add-friend,
-#user-context-voice-move,
-#user-context-invite-to-listen,
-#user-context-roles {display: none}
-
-
-/* Hide some buttons in server context menu */
-#channel-context-invite-to-listen,
-#channel-context-collapse-category,
-#channel-context-collapse-all-categories,
-#message-thread,
-#channel-context-create-text-channel,
-#guild-context-privacy,
-#message-tts,
-#channel-context-channel-notifications {display: none}
-.threadSuggestionBar-2ufK2Z {display: none;}
-
-
-/* Hide create thread in chat box */
-#channel-attach-THREAD {display: none}
-
-
-/* Hide mute channel icon*/
-.iconWrapper-2awDjA[aria-label*='Mute channel'] {display: none;}
-
-
-/* text bar */
-#textarea-context-sticker-suggestions {display: none}
-.separator-1So4YB {display: none}
-#textarea-context-spellcheck {display: none}
-#textarea-context-submit-button {display: none;}
-#Suggestions {display: none;}
-
-
-
-/* bottom left size */
-.container-YkUktl {
-height: 39px;
-}
-
-
-.container-1zzFcN  {
-height: 70px;
-}
-
-
-/*  change mention bg */
-.mentioned-Tre-dv .repliedMessage-3Z6XBG:before{
-  border-color:hsla(var(--mention-hue), 100%, 50%);
-}
-.mentioned-Tre-dv,.mouse-mode.full-motion .mentioned-Tre-dv:hover,.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy{
-background-color:hsla(var(--mention-hue), 100%, 50%,0.1);
-}
-.mentioned-Tre-dv:before,.menu-1QACrS:before{
-background-color:hsla(var(--mention-hue), 100%, 50%);
-}
-
-
-.embed-hKpSrO {
-  border-radius: var(--embed-border-radius);
-}
-.embed-hKpSrO code{
-  background: var(--background-secondary);
-}
-
-
-/* Discord Message box */
-.input-2g-os5,
-.scrollableContainer-15eg7h {
-  background-color: #292929;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-  border: 1px solid transparent;
-  outline: none;
-}
-.input-2g-os5:hover,
-.scrollableContainer-15eg7h:hover {
-  border-color: #4373c5;
-  background-color: #2e2c2c;
-}
-.input-2g-os5:focus-within,
-.scrollableContainer-15eg7h:focus-within {
-  background-color: #2e2c2c;
-  border-color: var(--color-brand-lighter);
-}
-.scrollableContainer-15eg7h {
-  border: 1px solid transparent;
-  border-radius: 25px;
-}
-
-
-/* Emote Fix */
-img.emote {
-  text-indent: 0;
-  white-space: nowrap;
-  width: auto;
-  position: relative;
-  top: 0.25ex;
+  color: gray;
 }
 
 
@@ -269,24 +43,7 @@ img.emote {
 }
 
 
-[aria-label*='Help'] {display: none;}
-[aria-label*='Open sticker picker'] {display: none;}
-[href="/store"] {display: none;}
-[aria-label*='Send a gift'] {display: none;}
-
-
-#channel-attach-SLASH_COMMAND {display: none;}
-/* Removes Chatbox from channel that don't allow you to communicate */
-.channelTextAreaDisabled-1p2fQv {display: none;}
-
-
-/* betterdiscord even settings*/
-.bd-addon-list.bd-grid-view {
-  grid-template-columns: 50% 50%;
-}
-
-
-/* Unclamp the About Me section, so it's not limited to just 6 lines. (Before it'd cut off at 6 and add a ...) */
+/* Fix/Unclamp the About Me section, so it's not limited to just 6 lines. */
 .clamped-2ZePhX {
   -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
   max-height:150px;
@@ -294,9 +51,60 @@ img.emote {
   overflow-y:scroll;
 }
 .clamped-2ZePhX::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 
+/* Hide some buttons in user context menu */
+#user-context-invite-to-server,
+#user-context-call,
+#user-context-add-friend,
+#user-context-voice-move,
+#user-context-invite-to-listen,
+#user-context-roles,
+
+
+/* Hide some buttons in server context menu */
+#channel-context-invite-to-listen,
+#channel-context-collapse-category,
+#channel-context-collapse-all-categories,
+#message-thread,
+#channel-context-create-text-channel,
+#guild-context-privacy,
+#message-tts,
+#channel-context-channel-notifications,
+.threadSuggestionBar-2ufK2Z,
+.layer-2aCOJ3 .container-2sjPya,
+#channel-attach-THREAD,
+
+
+/* Hide mute channel icon*/
+.iconWrapper-2awDjA[aria-label*='Mute channel'],
+
+/* hide the ? on left top */
+[aria-label*='Help'],
+
+/* text bar */
+#textarea-context-sticker-suggestions,
+.separator-1So4YB,
+#textarea-context-spellcheck,
+#textarea-context-submit-button,
+#Suggestions,
+
+[aria-label*='Open sticker picker'],
+[href="/store"],
+[aria-label*='Send a gift'],
+
+#channel-attach-SLASH_COMMAND,
+/* Removes Chatbox from channel that don't allow you to communicate */
+.channelTextAreaDisabled-1p2fQv,
+
+
 /* remove greetings */
-.welcomeCTAButtonOuter-3pJkMq  {display: none;}
+.welcomeCTAButtonOuter-3pJkMq,
+
+
+/* Removes Follow banner on bottom of channels */
+.wrapper-2SplAX {display: none;}
+
+/* idc im not going to copy paste {display: none;} everywhere */
