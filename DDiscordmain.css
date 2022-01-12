@@ -298,7 +298,5 @@ display: none;
 }
 
 
-/* emoji grayscale*/
-.emojiItemDisabled-3VVnwp {
-  filter: grayscale(0%);
-}
+/* remove greetings */
+.welcomeCTAButtonOuter-3pJkMq  {display: none;}
