@@ -269,6 +269,7 @@ img.emote {
 [aria-label*='Help'] {display: none;}
 [aria-label*='Open sticker picker'] {display: none;}
 [href="/store"] {display: none;}
+[aria-label*='Send a gift'] {display: none;}
 
 
 #channel-attach-SLASH_COMMAND {display: none;}
