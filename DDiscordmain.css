@@ -107,4 +107,18 @@
 /* Removes Follow banner on bottom of channels */
 .wrapper-2SplAX {display: none;}
 
+
+/*More space-efficient settings layout*/
+.sidebarRegion-1VBisG,
+.sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
+.contentColumnDefault-3eyv5o {max-width: unset;}
+
+
+/* Resize channel*/
+.sidebar-1tnWFu {
+    resize: horizontal;
+    width: var(--sidebar-initial-width);
+}
+
+
 /* idc im not going to copy paste {display: none;} everywhere */
