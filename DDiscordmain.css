@@ -113,11 +113,4 @@
 .sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
 .contentColumnDefault-3eyv5o {max-width: unset;}
 
-
-/* Resize channel*/
-.sidebar-1tnWFu {
-    resize: horizontal;
-    width: var(--sidebar-initial-width);
-}
-
 /* idc im not going to copy paste {display: none;} everywhere */
