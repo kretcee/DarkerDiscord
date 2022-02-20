@@ -181,3 +181,35 @@ img.emote {
   border: 1px solid transparent;
   border-radius: 25px;
 }
+
+
+/* Fixed&Updated Reverted Role Design by Xyhlo */
+.role-2TIOKu{background: transparent;border: 1px solid;border-radius: 11px;}
+.roleCircle-1EgnFN {margin-left: 0;}
+.addButton-1_dZYu.role-2TIOKu {border-color: #4f545c;}
+.addButtonIcon-3HZ_2f {width: 10px;height: 10px;}
+
+
+/* Hide threads and events buttons */
+[data-list-item-id*='channels___guild-active-threads'] {display: none;}
+[data-list-item-id*='channels___upcoming-events'] {display: none;}
+[aria-label*='Channels'] {top: -10px;}
+
+
+
+/* Bigger title buttons */
+.winButton-3UMjdg {
+  width: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* Rounded Context Menu */
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 15px; 
+}
+
+
+/* Draggable Resize channel */
+.sidebar-1tnWFu {width: var(--sidebar-initial-width);}
