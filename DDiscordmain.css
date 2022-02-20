@@ -113,4 +113,10 @@
 .sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
 .contentColumnDefault-3eyv5o {max-width: unset;}
 
+
+/* Hide explore public servers button*/
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+    display: none; 
+}
+
 /* idc im not going to copy paste {display: none;} everywhere */
