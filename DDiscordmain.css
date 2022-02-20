@@ -119,4 +119,10 @@
     display: none; 
 }
 
+
+/* Popup background color fix */
+.theme-dark .root-g14mjS {
+  background: #0b0c0d;
+}
+
 /* idc im not going to copy paste {display: none;} everywhere */
