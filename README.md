@@ -14,7 +14,6 @@
 3. Move the [DDiscord.theme](/DDiscord.theme.css) to the BetterDiscord Theme folder
 
 ## Credits
-
 - _david_#1312
 - ꧁༒☬Sôma☬༒꧂#0570
 - [puckzxz](https://github.com/puckzxz)
