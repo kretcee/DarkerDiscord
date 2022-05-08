@@ -209,7 +209,6 @@ img.emote {
     border-radius: 15px; 
 }
 
-
 /* edited text */
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
         content: " (" attr(aria-label) ")";
