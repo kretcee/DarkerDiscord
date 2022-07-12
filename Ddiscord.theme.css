@@ -1,6 +1,6 @@
 /**
  * @name Darkerdiscord
- * @version 2.3.7
+ * @version 2.3.8
  * @author Kret#0591
  * @authorId 438053266585026560
  * @description 🎨 An actual Darker Discord theme 
@@ -44,4 +44,6 @@
 --background-mobile-primary: #36393f; 
 --background-mobile-secondary: #2f3136;
 --font-display: var(--font-primary);
+--brand-experiment: #2f3136;
+
 }

@@ -1,4 +1,4 @@
-/*  discord icon hover */
+/*  discord icon hover / not anymore */
 .wrapper-3kah-n .selected-1Drb7Z .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub, .peopleColumn-1wMU14 {
   background-color: #202225;
 }
@@ -20,10 +20,9 @@
 .theme-dark .footer-31IekZ , .container-36u7Lw, .container-x8Y1ix {
   background-color: #0B0C0D;
 }
-.base-21yXnu {
+.base-21yXnu, .contents-3ca1mk {
   color: white;
 }
-
 
 /* server creator button */ 
 .circleIconButton-1VxDrg.selected-2r1Hvo {
@@ -73,7 +72,6 @@
 #message-tts,
 #channel-context-channel-notifications,
 .threadSuggestionBar-2ufK2Z,
-.layer-2aCOJ3 .container-2sjPya,
 #channel-attach-THREAD,
 
 
@@ -139,6 +137,5 @@
 .theme-dark .children-3xh0VB:after {
   background: #111111;
 }
-
 
 /* idc im not going to copy paste {display: none;} everywhere */
